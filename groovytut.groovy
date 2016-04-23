@@ -1,3 +1,9 @@
+/*
+Multi line
+Comment
+*/
+// Regulur Comment
+
 class Learning{
   static void main(String[] args){
 
@@ -6,7 +12,7 @@ class Learning{
 
     // Variables
     def age = "Dog";
-    age = 40;
+     age = 40;
 
     // Math Functions
     println("5 + 4 = " + (5 + 3));
@@ -24,7 +30,16 @@ class Learning{
     println("(3 + 2) * 5 = " + ((3 + 2) * 5));
 
     // Adding values to variables
-    println("age")
+    /*
+    It adds one to the variable
+    so age = 40
+    but after age++ it = 41
+    */
+    println("age++ = " + (age++));
+    println("++age = " + (++age));
+    println("age-- = " + (age--));
+    println("--age = " + (--age));
+
 
   }
 }
