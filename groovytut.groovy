@@ -192,6 +192,45 @@ println("1.1000000000000001 + 1.1000000000000001 "
   println("  ")
   println(primes)
 
+  println("  ")
+  println("Matches " + primes.intersect([2,3,7]))
 
+  println("  ")
+  println("Reverse " + primes.reverse())
+
+  println("  ")
+  println("Sort " + primes.sort())
+
+  println("  ")
+  println("Last " + primes.pop())
+
+  // Maps
+
+  // A map on Alex
+  def alexMap = [
+    'name' : 'Alex',
+    'age' : 12,
+    'address' : 'North America',
+    'list' : [1,2,3]
+  ]
+
+  println("  ")
+  // Prints out the name
+  println("Name " + alexMap['name'])
+  println("  ")
+  // Prints out the age using get
+  println("Age " + alexMap.get('age'))
+  println("  ")
+  // Prints out the list
+  println("List Item " + alexMap['list'][1])
+  println("  ")
+
+  // Adds to the Maps
+  alexMap.put('company', 'Napend')
+
+  // Sees if the map has the list company
+  println("Has company " + alexMap.containsKey('company'))
+  // Prints out map size
+  println("Size " + alexMap.size())
   }
 }
